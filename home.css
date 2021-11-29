@@ -1,0 +1,70 @@
+body{
+	background-color: lightcyan;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+header{
+	border-style: solid;
+	/*border-bottom-right-radius: 1.6em;
+	border-bottom-left-radius: 1.6em;*/
+	top: 0;
+	position: static;
+	height: 16vh;
+	/*font-family: serif;*/
+	font-weight: bolder;
+    background-color:#FFB500;
+	text-align: center;
+	font-size: 4em;
+}
+footer{
+	position: fixed;
+	bottom: 0px;
+	width: 99%;
+	background: #fff;
+	color: #fff;
+	text-align: right;
+}
+#games{
+	height: 81vh;
+	display: flex;
+	flex-direction: column;
+	margin-top: 0.4em;
+	margin-left: 0.2em;
+	margin-right: 0.2em;
+	border-style: solid;
+	/*border-top-left-radius: 3em;
+	border-top-right-radius:3em;*/
+	background-color: lightcyan;
+	/*background:linear-gradient(rgb(246, 150, 40),rgb(246, 50, 140));*/
+}
+#first-floor,#second-floor,#third-floor{
+	display: flex;
+	justify-content: space-around;
+	background-color: lightcyan;
+/*	background-color: #000;
+*/	/*border:solid;
+	border-width: 0.1em;*/
+}
+
+#game1,#game2,#game3,#game4,#game5,#game6,#game7,#game8,#game9{
+	background-color: cyan;
+	height: 20vh;
+	width: 30%;
+	border:solid;
+	border-width: 0.2em;
+	cursor: pointer;
+	font-weight: bolder;
+	font-size: 2em;
+	text-align: center;
+	vertical-align: middle;
+	line-height:4.3em;
+	border-radius: 1em;
+	margin-top: 0.8em;
+	/*font-family: cursive;*/
+}
+#game1:hover,#game2:hover,#game3:hover,#game4:hover,#game5:hover,#game6:hover,#game7:hover,#game8:hover,#game9:hover{
+	width: 30.5%;
+	font-size: 2em;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Neptune's Sliding-Puzzle</title>
+	<link rel="stylesheet" type="text/css" href="slidingPuzzle.css">
+</head>
+<body>
+	<div class="failed" id="failed" style="display: none;margin: auto;">
+		<div id="finalCount" style="text-align: center;font-size: 8em;font-weight: bolder;">5</div>
+		
+		<div id="finalbuttons">
+			<button id="restart1" style="font-size: 3em;font-weight: bolder;">
+				Restart
+			</button>
+			<button id="homePage1" style="font-size: 3em;font-weight: bolder;">
+				Home
+			</button>
+		</div>
+	</div>
+	<div class="won" id="won" style="display: none;margin: auto">
+		<div id="resultText" style="text-align: center;font-size: 8em;font-weight: bolder;margin-top: 1em;">5</div>
+		<div id="finalbuttons">
+			<button id="restart2" style="font-size: 3em;font-weight: bolder;">
+				Restart
+			</button>
+			<button id="homePage2" style="font-size: 3em;font-weight: bolder;">
+				Home
+			</button>
+		</div>
+		</div>
+	</div>
+	<div id="mainBox" style="display:block;">
+	<header id="headerElement">
+			<span class="title">Sliding Puzzle</span>
+			<button class="start" id="start">Start</button>
+			<span id="timer">
+					Timer : 00:00
+			</span>
+			
+			<span id="moves1">| Moves :</span>
+			
+			<span id="moves">
+				  0
+			</span>
+	</header>
+	<div id="board" style="display: block;">
+		<div id="slide" >
+			<div id="first-row">
+				<div id="one">
+					<span class="number" id="num1">1</span>
+				</div>
+				<div id="two">
+					<span class="number" id="num2">2</span>
+				</div>
+				<div id="three">
+					<span class="number" id="num3">3</span>		
+				</div>
+			</div>
+			<div id="second-row">
+				<div id="four">
+					<span class="number" id="num4">4</span>	
+				</div>
+				<div id="five">
+					<span class="number" id="num5">5</span>		
+				</div>	
+				<div id="six">
+					<span class="number" id="num6">6</span>		
+				</div>
+			</div>
+			<div id="third-row">
+				<div id="seven">
+					<span class="number" id="num7">7</span>		
+				</div>
+				<div id="eight">
+					<span class="number" id="num8">8</span>		
+				</div>		
+				<div id="nine">
+					<span class="number" id="num9"></span>		
+				</div>		
+			</div>
+		</div>
+	</div>
+
+	<br>
+	<footer>
+		<button id="timeLine" style="background-color: black;"></button>
+	</footer>
+	</div>
+	</div>
+</body>
+<script src="slidingPuzzle.js"></script>
+</html>

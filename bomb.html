@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Neptune's Time-Bomb</title>
+	<link rel="stylesheet" type="text/css" href="bomb_css.css">
+	<meta charset="utf-8"/>
+</head>
+<body class="mainBody" id="mainBody">
+	<div class="failed" id="failed" style="display: none;">
+		<img src="./img/1.jpg"  id="bombImg">
+		<br>
+		<span id="finalCount" style="text-align: center;">0</span>
+		<br>
+		<button id="restart">
+			Restart
+		</button>
+		<button id="homePage2">
+			Home
+		</button>
+	</div>
+	<div class="won" id="won" style="display: none;">
+		<div class="rain">
+		<img src="./img/1.jpg"  id="bombImg2">
+		<br>
+		<span id="resultText" style="text-align:center;">0</span>
+		<br>
+		<button id="restart2">
+			Restart
+		</button>
+		<button id="homePage1">
+			Home
+		</button>
+		</div>
+		
+	</div>
+	<div id="Maingame" style="display: block;">
+	<header id="headerElement">
+			<span class="title">Time Bomb</span>
+			<button class="start" id="start">Start</button>
+				<span id="timer">
+					Timer : 00:00
+				</span>
+	</header>
+	<div class="main">
+		<div class="timeBomb" id="timeBomb">
+<!-- 			<img src="./img/tick2.webp">	
+ -->	
+ 		<input type="text" id="first">
+ 		<input type="text" id="second">
+ 		<input type="text" id="third">
+ 		<input type="text" id="fourth">
+ 		<br>
+ 		<button id="check">Check</button>
+ 		<div id="result">
+ 			Not matched....
+ 		</div>
+		</div>
+		<div class="hint" id="hint">
+			<div class="first-floor">
+				<div class="first-floor-1" id="firstBox">
+					<span id="hint1">Hint-1</span>
+					<div id="uniqueResult"></div>
+				</div>	
+				<div class="first-floor-2" id="secondBox">
+					<span id="hint2">Hint-2</span>
+					<div id="sumResult"></div>
+				</div>
+			</div>
+			<div class="second-floor">
+				<div class="second-floor-1" id="thirdBox">
+					<span id="hint3">Hint-3</span>
+					<div id="perResult" style="display: none;">0%</div>
+					<button id="perCheck" style="display: none;">show percentage!</button>
+					<span id="innerTimer" style="display: none;">available in 00:00</span>
+				</div>
+				<div class="second-floor-2" id="fourthBox">
+					<span id="hint4">Hint-4</span>
+					<input type="text" id="one" style="display: none;">
+					<input type="text" id="two" style="display: none;">
+					<input type="submit" id="checkCompare" value="Compare" style="display: none;">
+					<div id="CompareResult"></div>
+				</div>
+			</div>
+			<div class="third-floor">
+				<div class="third-floor-1" id="fifthBox">
+					<span id="hint5">Hint-5</span>
+					<input type="text" id="show" style="display: none;">
+					<input type="submit" id="showNum" value="Show" style="display: none;">
+					<span id="hint5answer"  style="display: none;">-</span>
+				</div>
+				<div class="third-floor-2" id="sixthBox">
+					Blast
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<footer>
+		<button id="timeLine"></button>
+	</footer>
+	</div>
+	
+</body>
+<script src="bomb_js.js"></script>
+</html>
