@@ -18,8 +18,6 @@ body{
 #homePage1,#homePage2{
 	background-color: cyan;
 	margin-left: 1em;
-
-
 }
 #finalbuttons{
 	display: flex;

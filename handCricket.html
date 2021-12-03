@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="handCricket.css">
+	<title>Neptune's game</title>
+</head>
+<body>
+	<header id="headerElement">
+			<span class="title">Run Chase against A.I</span>
+			
+	</header>
+	
+	<div id="result">
+		<div id="result1">Oops...  Bowled.....!</div>
+		<button id="restart1">Restart</button>
+		<button id="homePage1">Home</button>
+	</div>
+	<div id="mainBox">
+		<div id="battleground">
+			<div id="playerName">
+				<div style="background-color: wheat;color: red;">
+					&nbsp&nbsp&nbspYou&nbsp&nbsp&nbsp 	
+				</div>
+				<div style="background-color: wheat;color: red;">
+					&nbsp&nbspComputer&nbsp&nbsp
+				</div>
+			</div>
+			<hr  style="height: 0.2em;background-color: black;" id="hr">
+			<div id="images">
+					<!-- <img src="./img/csk.jpg" width="50%" height="60vh" id="player">			
+					 -->
+					 <div id="player"><span id="playerspan">0</span></div>
+					 <div id="system"><span id="systemspan">0</span></div>
+
+					<!-- <img src="./img/csk.jpg" width="50%" height="60vh" id="system"> -->
+			</div>
+		</div>
+
+		<div id="inputArea">
+			<div id="scoreCard">
+				<div id="liveScore" >
+
+					<div id="level">
+						<button id="easy">Easy</button>
+						<button id="medium">Medium</button>
+						<button id="hard">Hard</button>
+					</div>
+
+					<div id="level1" style="display:none;">
+						<div id="ys">
+							<button id="start">Start</button>
+						</div>
+						<div id="ss">
+							Target :<span id="systemscore">0</span> 
+						</div>
+					</div>
+				</div>
+
+
+ 				<div id="inningsDetails">
+ 					<div id="cs">
+						Current Score 
+					</div>
+					<div id="score">
+						0
+					</div>
+ 					
+ 				</div>
+
+			</div>
+			<div id="inputButtons">
+				<div id="first-floor">
+					<button id="one">1</button>
+					<button id="two">2</button>
+					<button id="three">3</button>
+
+				</div>
+				<div id="second-floor">
+					<button id="four">4</button>
+					<button id="five">5</button>
+					<button id="six">6</button>
+				</div>
+				<div id="third-floor">
+					<button id="zero">0</button>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</body>
+<script type="text/javascript" src="handCricket.js"></script>
+</html>

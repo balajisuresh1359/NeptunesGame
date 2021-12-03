@@ -1,0 +1,307 @@
+
+.title{
+	/*margin-left: 2em;*/
+	text-align: left;
+	font-weight: bolder;
+}
+
+
+header{
+	height: 15vh;
+	border:solid;
+/*	border-width: 0.1em;
+*/	background-color: #F93800;
+	border: solid;
+	color: #fff;
+	border-color: #fff;
+	font-size: 4em;
+	text-align: center;
+
+}
+#start{
+		width: 5em;
+		text-align: center;
+		cursor: pointer;
+		border-width: 0.1em;
+		background-color: cyan;
+		font-weight: bolder;
+		font-size: 1em;
+		align-items: center;
+}
+
+#mainBox{
+	display: flex;
+	flex-direction: row;
+	margin: 0.5em;
+	background-color: #000;
+	height: 80vh;
+}
+
+#battleground{
+	margin-right: 0.5em;
+	height: 80vh;
+	background-color: royalblue;
+	width: 50%;
+		border-color: black;
+	border-width: 0.2em;
+	border-style: solid;
+	border-bottom-width:0.3em;
+}
+#inputArea{
+	margin-left: 0.5em;
+	height: 80vh;
+	background-color: #f2bc94;
+	width: 50%;
+	border-color: black;
+	border-width: 0.2em;
+	border-style: solid;
+	border-bottom-width:0.3em;
+	display: flex;
+	flex-direction: column;
+}
+#playerName{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size: 2em;
+	font-weight: bolder;
+	margin-top: 0.5em;
+}
+
+#images{
+	display: flex;
+	flex-direction: row;
+	height: 60vh;
+}
+#player,#system{
+	margin: 1em;
+	height: 60vh;
+	width: 40%;
+	text-align: center;
+	background-color: white;
+	border-color: black;
+	border-width: 0.4em;
+	border-style: solid;
+}
+#player{
+	margin-left: 2.5em;
+}
+#playerspan,#systemspan{
+	margin-top: 0;
+	font-family: fantasy;
+	font-size: 20em;
+}
+#scoreCard{
+	height: 40vh;
+/*	margin-bottom: 1em;
+*/	background-color: black;
+	border-bottom-width: 0.1em;
+	border-bottom-style: solid;
+	display: flex;
+	flex-direction: row;
+}
+#liveScore,#inningsDetails{
+	height: 39.5vh;
+	width: 50%;
+	border-width: 0.1em;
+	border-style: solid;
+	margin-bottom: 0.2em;
+}
+#inningsDetails{
+	margin-top: 0.1em;
+
+}
+#liveScore{
+	/*margin-bottom: 2em;*/
+	background-color: red;
+	display: flex;
+	flex-direction: column;
+	font-size: 2.5em;
+	font-weight: bolder;
+}
+#cs{
+		display: flex;
+	justify-content: center;
+		margin: 0.3em;
+		margin-bottom: 0;
+		color: black;
+		font-weight: bolder;
+		font-size: 2em;
+		text-decoration: underline;
+}
+#ss{
+	font-weight: bolder;
+		display: flex;
+	justify-content: center;
+		margin: 0.3em;
+
+}
+#ys{
+	display: flex;
+	justify-content: center;
+	margin: 0.3em;
+	margin-top: 1.3em;
+}
+
+#ys,#ss{
+	color: white;
+	/*background-color: white;*/
+}
+#playerscore,#systemscore{
+/*	background-color: red;
+*/}
+#inningsDetails{
+	background-color: yellow;
+}
+#inputButtons{
+	width: 100%;
+/*margin-top: 1em;*/
+	height: 35vh;
+	/*border-top-width:1em;*/
+	/*border-color: black;*/
+	background-color: #f2bc94;
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+}
+#first-floor,#second-floor,#third-floor{
+	display: flex;
+	flex-direction: row;
+	justify-items: space-around;
+	width: 100%;
+	height: 13vh;
+	/*margin-top: 1em;*/
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	justify-items: center;
+}
+#one,#two,#three,#four,#five,#six,#zero{
+	padding: 1.5em;
+	margin: 1em;
+	background-color: cyan;
+	font-weight: bolder;
+	font-size: 1.1em;
+	text-align: center;
+	border-radius: 1em;
+	cursor: pointer;
+	width: 7em;
+}
+#one:hover,#two:hover,#three:hover,#four:hover,#five:hover,#six:hover,#zero:hover{
+	background-color: red;
+	color: white;
+}
+#score{
+	/*margin-top: 0.5em;*/
+	color: black;
+	font-size: 10em;
+	text-align: center;
+	font-weight: bolder;
+	;
+}
+
+#result{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 7em;
+	color: black;
+	display: none
+}
+
+#restart1,#homePage1{
+	background-color: cyan;
+	margin-right: 1em;
+	padding: 0.5em;
+	font-size: 0.5em;
+	cursor: pointer;
+}
+
+#level{
+	display: flex;
+	flex-direction: column;
+	font-size: 1em;
+	font-weight: bolder;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	justify-items: center;
+}
+#easy,#medium,#hard{
+	padding: 0.3em;
+	text-align: center;
+	width: 5em;
+	margin: 0.2em;
+	border-radius: 2em;
+	padding: 0.2em;
+	font-size: 0.9em;
+	cursor: pointer;
+	/*font-weight: bolder;*/
+}
+#easy{
+	background-color: white;
+}
+#medium{
+	background-color: white;
+}
+#hard{
+	background-color: white;
+}
+#easy:hover{
+	color: white;
+	background-color: black;
+}
+#medium:hover{
+	color: white;
+	background-color: black;
+}
+#hard:hover{
+	color: white;
+	background-color: black;
+}
+/*
+#difficulty_level{
+	display: flex;
+	margin-top: 4em;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	justify-items: center;
+	background-color: cyan;
+	border-radius: 9em;
+	margin-left: 5em;
+	margin-right: 5em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+#low,#medium,#hard{
+	text-align: center;
+	font-size: 2em;
+	width: 20em;
+	font-weight: bolder;
+	padding: 0.5em;
+	margin: 0.5em;
+	border-radius: 1em;
+	cursor: pointer;
+}
+#low{
+	background-color: #f2bc94;
+}
+#medium{
+	background-color: yellow;
+}
+#hard{
+	background-color: red;
+}
+#low:hover{
+	color: #f2bc94;
+	background-color: black;
+}
+#medium:hover{
+	color: yellow;
+	background-color: black;
+}
+#hard:hover{
+	color: red;
+	background-color: black;
+}*/
